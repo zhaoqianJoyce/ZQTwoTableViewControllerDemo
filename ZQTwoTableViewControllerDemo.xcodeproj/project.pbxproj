@@ -13,6 +13,8 @@
 		E99A24DC1FD6771E0065EB3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99A24DA1FD6771E0065EB3D /* Main.storyboard */; };
 		E99A24DE1FD6771E0065EB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99A24DD1FD6771E0065EB3D /* Assets.xcassets */; };
 		E99A24E11FD6771E0065EB3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99A24DF1FD6771E0065EB3D /* LaunchScreen.storyboard */; };
+		E99A24EA1FD679FC0065EB3D /* ZQLeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A24E91FD679FC0065EB3D /* ZQLeftTableViewController.m */; };
+		E99A24ED1FD67B3B0065EB3D /* ZQRightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A24EC1FD67B3B0065EB3D /* ZQRightTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		E99A24DD1FD6771E0065EB3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E99A24E01FD6771E0065EB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E99A24E21FD6771E0065EB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99A24E81FD679FC0065EB3D /* ZQLeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQLeftTableViewController.h; sourceTree = "<group>"; };
+		E99A24E91FD679FC0065EB3D /* ZQLeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQLeftTableViewController.m; sourceTree = "<group>"; };
+		E99A24EB1FD67B3B0065EB3D /* ZQRightTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQRightTableViewController.h; sourceTree = "<group>"; };
+		E99A24EC1FD67B3B0065EB3D /* ZQRightTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQRightTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				E99A24D51FD6771E0065EB3D /* AppDelegate.m */,
 				E99A24D71FD6771E0065EB3D /* ViewController.h */,
 				E99A24D81FD6771E0065EB3D /* ViewController.m */,
+				E99A24E81FD679FC0065EB3D /* ZQLeftTableViewController.h */,
+				E99A24E91FD679FC0065EB3D /* ZQLeftTableViewController.m */,
+				E99A24EB1FD67B3B0065EB3D /* ZQRightTableViewController.h */,
+				E99A24EC1FD67B3B0065EB3D /* ZQRightTableViewController.m */,
 				E99A24DA1FD6771E0065EB3D /* Main.storyboard */,
 				E99A24DD1FD6771E0065EB3D /* Assets.xcassets */,
 				E99A24DF1FD6771E0065EB3D /* LaunchScreen.storyboard */,
@@ -150,8 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E99A24D91FD6771E0065EB3D /* ViewController.m in Sources */,
+				E99A24ED1FD67B3B0065EB3D /* ZQRightTableViewController.m in Sources */,
 				E99A24D61FD6771E0065EB3D /* AppDelegate.m in Sources */,
 				E99A24D31FD6771E0065EB3D /* main.m in Sources */,
+				E99A24EA1FD679FC0065EB3D /* ZQLeftTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
